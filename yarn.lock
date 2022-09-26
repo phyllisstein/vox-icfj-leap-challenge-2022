@@ -350,7 +350,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.18.3, @babel/runtime@npm:^7.18.9":
+"@babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.17.8, @babel/runtime@npm:^7.18.3, @babel/runtime@npm:^7.18.9":
   version: 7.19.0
   resolution: "@babel/runtime@npm:7.19.0"
   dependencies:
@@ -1268,6 +1268,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"bezier-easing@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "bezier-easing@npm:2.1.0"
+  checksum: ec22666b5385979b3e7a63eaf2631395b1be5beb3aed4f14cc70ae9eb09032082584f7e3eec045e4c122466987ed7e159f5b39f82b8a9870cd55e75b0d55a7d5
+  languageName: node
+  linkType: hard
+
 "brace-expansion@npm:^1.1.7":
   version: 1.1.11
   resolution: "brace-expansion@npm:1.1.11"
@@ -1392,6 +1399,13 @@ __metadata:
   version: 2.0.0
   resolution: "chownr@npm:2.0.0"
   checksum: c57cf9dd0791e2f18a5ee9c1a299ae6e801ff58fee96dc8bfd0dcb4738a6ce58dd252a3605b1c93c6418fe4f9d5093b28ffbf4d66648cb2a9c67eaef9679be2f
+  languageName: node
+  linkType: hard
+
+"chroma-js@npm:^2.4.2":
+  version: 2.4.2
+  resolution: "chroma-js@npm:2.4.2"
+  checksum: cf9884c02d406286e4370599bcd1afbf089384407df46b3a69edfedcba7bb99e8f959a5cfdbfec750b305c441c06ca40cd1f70ba3a6c2ce739ac09a92520ddae
   languageName: node
   linkType: hard
 
@@ -3174,6 +3188,8 @@ __metadata:
     "@typescript-eslint/eslint-plugin": ^5.38.0
     "@typescript-eslint/parser": ^5.38.0
     "@vitejs/plugin-react": ^2.1.0
+    bezier-easing: ^2.1.0
+    chroma-js: ^2.4.2
     eslint: ^8.24.0
     eslint-import-resolver-typescript: ^3.5.1
     eslint-plugin-import: ^2.26.0
@@ -3183,6 +3199,8 @@ __metadata:
     eslint-plugin-react-hooks: ^4.6.0
     eslint-plugin-sort-imports-es6-autofix: ^0.6.0
     eslint-plugin-sort-keys-fix: ^1.1.2
+    lodash: ^4.17.21
+    polished: ^4.2.2
     react: ^18.2.0
     react-dom: ^18.2.0
     typescript: ^4.8.3
@@ -3229,6 +3247,13 @@ __metadata:
   version: 4.6.2
   resolution: "lodash.merge@npm:4.6.2"
   checksum: ad580b4bdbb7ca1f7abf7e1bce63a9a0b98e370cf40194b03380a46b4ed799c9573029599caebc1b14e3f24b111aef72b96674a56cfa105e0f5ac70546cdc005
+  languageName: node
+  linkType: hard
+
+"lodash@npm:^4.17.21":
+  version: 4.17.21
+  resolution: "lodash@npm:4.17.21"
+  checksum: eb835a2e51d381e561e508ce932ea50a8e5a68f4ebdd771ea240d3048244a8d13658acbd502cd4829768c56f2e16bdd4340b9ea141297d472517b83868e677f7
   languageName: node
   linkType: hard
 
@@ -3757,6 +3782,15 @@ __metadata:
     mlly: ^0.5.14
     pathe: ^0.3.7
   checksum: a0e7bb732333e138597302ced39b93d3d76147e275774fe0f5aad3db0c8191e03af126850d23af639e62791baba393593d0b22e2621c10b9cf432b604f5c9047
+  languageName: node
+  linkType: hard
+
+"polished@npm:^4.2.2":
+  version: 4.2.2
+  resolution: "polished@npm:4.2.2"
+  dependencies:
+    "@babel/runtime": ^7.17.8
+  checksum: 97fb927dc55cd34aeb11b31ae2a3332463f114351c86e8aa6580d7755864a0120164fdc3770e6160c8b1775052f0eda14db9a6e34402cd4b08ab2d658a593725
   languageName: node
   linkType: hard
 
