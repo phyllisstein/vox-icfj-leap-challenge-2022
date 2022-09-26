@@ -1,0 +1,80 @@
+.vox-info-modal {
+    position: fixed;
+    height: 100%;
+    width: 90%;
+    max-width: 500px;
+    overflow: auto;
+    right: 0;
+    z-index: 999;
+    margin: 0 auto;
+    padding:105px 30px 30px 30px;
+    background: #fff200;
+}
+
+.vox-info-modal .leap-module {
+    margin: 0;
+    border-bottom: solid 1px #777;
+    border-radius: 0;
+}
+
+.leap-module {
+    text-align: center;
+    background: #fff200;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 15px;
+    color: #111;
+}
+
+.leap-module.leap-author  {
+    text-align: left;
+    display: flex;
+    font-size: 0.9em;
+ }
+
+ .leap-module.leap-author-entry  {
+    padding: 1.5rem 2rem 1.5rem 1rem;
+    margin: 0 4rem 1.2rem 0;
+    border-radius:0 25px 25px 0;
+    font-size: 0.9em;
+ }
+
+ .leap-module a  {
+    font-weight: bold;
+    text-decoration: underline;
+ }
+
+ .leap-module h3  {
+    font-size: 1.3rem;
+ }
+
+ .leap-module  a  {
+    display: inline-block;
+ }
+
+.leap-module p:last-child {
+    margin-bottom: 0;
+}
+
+.leap-module button {
+    border-radius: 4px;
+    padding: 10px 20px;
+    text-transform: none;
+    font-weight: bold;
+    font-family: "Balto",Helvetica, sans-serif;
+    letter-spacing: 0;
+    font-size:  16px;
+    background-color: #4f7177;
+    color: #fff
+}
+
+.leap-module img {
+   height: 80px;
+   min-width: 80px;
+   border-radius: 10px;
+   margin: 0  1.2rem 0 0;
+}
+
+.entry-content a {
+   color: #266672;
+}
